@@ -28,6 +28,15 @@ ResultRail is a remote Streamable HTTP MCP server. Use this endpoint in an MCP c
 
 Public `initialize` and `tools/list` calls are available for discovery. Protected paid tool execution may require product-specific authorization and/or x402 payment flow.
 
+## Buy through PayanAgent
+
+PayanAgent validates buyer input, settles USDC, and returns the selected source-attributed result automatically:
+
+- [Public domain result pack — $0.12](https://payanagent.com/marketplace/offers/kh7be0c7c7e51c11b65d31wtcd8ahdxd)
+- [Public URL extract result — $0.05](https://payanagent.com/marketplace/offers/kh714wc600k8kdtj9h1kg0zjfd8ahpg1)
+
+ResultRail reads public pages only and returns bounded source URLs, confidence, freshness, stop conditions, and deterministic result hashes. It does not access private data or credentials.
+
 ## Claim boundaries
 
 - This repo is public metadata for a hosted remote MCP server, not a claim that private production source code is open source.
