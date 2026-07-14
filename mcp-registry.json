@@ -1,0 +1,51 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.LarryLemonBot/resultrail",
+  "title": "ResultRail by LarryBuildsAI",
+  "description": "Five-to-twelve-cent source-attributed public URL and domain result packs for AI agents.",
+  "version": "0.1.2",
+  "websiteUrl": "https://proofbeforepay.vercel.app/resultrail",
+  "repository": {
+    "source": "github",
+    "url": "https://github.com/LarryLemonBot/resultrail-mcp-server"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://proofbeforepay.vercel.app/resultrail/mcp"
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "productName": "ResultRail",
+      "homepage": "https://proofbeforepay.vercel.app/resultrail",
+      "productCard": "https://proofbeforepay.vercel.app/resultrail/product-card.md",
+      "marketplaces": "https://proofbeforepay.vercel.app/resultrail/marketplaces.json",
+      "serverCard": "https://proofbeforepay.vercel.app/resultrail/.well-known/mcp/server-card.json",
+      "payanAgentSeller": "https://payanagent.com/marketplace/agents/j57aj29bb7gy71r705s23qkd898ah01c",
+      "payanAgentOffers": [
+        {
+          "name": "Public Domain Result Pack",
+          "priceUsd": "0.12",
+          "url": "https://payanagent.com/marketplace/offers/kh7be0c7c7e51c11b65d31wtcd8ahdxd"
+        },
+        {
+          "name": "Public URL Extract Result",
+          "priceUsd": "0.05",
+          "url": "https://payanagent.com/marketplace/offers/kh714wc600k8kdtj9h1kg0zjfd8ahpg1"
+        }
+      ],
+      "claimBoundary": "ResultRail returns public-data result packs with source URLs, timestamps, confidence, and receipt hashes. It does not sell private contact databases, bypass access controls, provide legal or financial advice, send outreach, trade assets, or guarantee downstream revenue.",
+      "searchTerms": [
+        "ResultRail",
+        "pay per success data",
+        "x402 data API",
+        "agent data router",
+        "domain data",
+        "URL extraction",
+        "public company data",
+        "source attributed results"
+      ]
+    }
+  }
+}
