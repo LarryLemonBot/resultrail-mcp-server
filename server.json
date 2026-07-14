@@ -3,9 +3,9 @@
   "slug": "resultrail",
   "category": "Data & Analytics",
   "description": "Pay-per-success public-data result packs with sources and receipt hashes.",
-  "mcpEndpoint": "https://x402-resource-scanner.vercel.app/resultrail/mcp",
-  "marketplaceRoot": "https://x402-resource-scanner.vercel.app/resultrail/marketplaces",
-  "serverCard": "https://x402-resource-scanner.vercel.app/resultrail/.well-known/mcp/server-card.json",
+  "mcpEndpoint": "https://proofbeforepay.vercel.app/resultrail/mcp",
+  "marketplaceRoot": "https://proofbeforepay.vercel.app/resultrail/marketplaces",
+  "serverCard": "https://proofbeforepay.vercel.app/resultrail/.well-known/mcp/server-card.json",
   "runtime": "hosted remote MCP server",
   "repositoryPurpose": "public metadata only"
 }

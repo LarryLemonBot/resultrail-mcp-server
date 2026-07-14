@@ -8,9 +8,9 @@ This repository is intentionally metadata-only. The production MCP server is hos
 
 - Product: ResultRail by LarryBuildsAI
 - Purpose: pay-per-success public-data result packs with source URLs, confidence, timestamps, and receipt hashes
-- Remote MCP endpoint: `https://x402-resource-scanner.vercel.app/resultrail/mcp`
-- Marketplace proof: `https://x402-resource-scanner.vercel.app/resultrail/marketplaces`
-- Server card: `https://x402-resource-scanner.vercel.app/resultrail/.well-known/mcp/server-card.json`
+- Remote MCP endpoint: `https://proofbeforepay.vercel.app/resultrail/mcp`
+- Marketplace proof: `https://proofbeforepay.vercel.app/resultrail/marketplaces`
+- Server card: `https://proofbeforepay.vercel.app/resultrail/.well-known/mcp/server-card.json`
 
 ## Install / connect
 
@@ -20,7 +20,7 @@ ResultRail is a remote Streamable HTTP MCP server. Use this endpoint in an MCP c
 {
   "mcpServers": {
     "resultrail": {
-      "url": "https://x402-resource-scanner.vercel.app/resultrail/mcp"
+      "url": "https://proofbeforepay.vercel.app/resultrail/mcp"
     }
   }
 }
